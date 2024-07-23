@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">question3</string>
+    <string-array name="operations">
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+    </string-array>
+</resources>

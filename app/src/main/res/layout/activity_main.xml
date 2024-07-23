@@ -14,14 +14,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/btnBMICalculator"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalculator"
         app:layout_constraintVertical_bias="0.3"/>
 
     <Button
-        android:id="@+id/btnBMICalculator"
+        android:id="@+id/btnCalculator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to BMI Calculator"
+        android:text="Go to Calculator"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnExpenseTracker"

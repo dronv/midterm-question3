@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnExpenseTracker: Button = findViewById(R.id.btnExpenseTracker)
-        val btnBMICalculator: Button = findViewById(R.id.btnBMICalculator)
+        val btnBMICalculator: Button = findViewById(R.id.btnCalculator)
 
         btnExpenseTracker.setOnClickListener {
             val intent = Intent(this, ExpenseTrackerActivity::class.java)
